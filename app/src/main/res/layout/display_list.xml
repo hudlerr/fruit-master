@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--RecyclerView is embedded within our activity layout file, also implements custom row XML-->
+
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fruit_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    app:layoutManager="LinearLayoutManager"
+    tools:context="com.example.testapp.MainActivity"
+    tools:listitem="@layout/display_list_content" />

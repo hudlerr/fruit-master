@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Fruit App</string>
+    <string name="title_fruit_list">List of Fruits</string>
+    <string name="choose">Click on a fruit to see more...</string>
+    <string name="title_fruit_detail">The details of this fruit are: </string>
+    <string name="type">Type:</string>
+    <string name="price">Price:</string>
+    <string name="weight">Weight:</string>
+</resources>
